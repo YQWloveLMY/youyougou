@@ -1,0 +1,474 @@
+.dropdown .dd {
+    width: 100%;
+    height: 465px;
+    background: #c81623;
+    display: none;
+}
+.phone {
+    height: 687px;
+}
+
+.top_left_corner {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    margin-top: 26px;
+}
+.top_left_corner span {
+    font-size: 12px;
+    color: black;
+}
+.left {
+    margin-top: 20px;
+    top: 50px;
+    width: 401px;
+}
+.left_img {
+    position: relative;
+    height: 400px;
+    border: 1px solid rgb(197, 197, 197);
+    line-height: 400px;
+    text-align: center;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background-color: #fede4f;
+    opacity: 0.5;
+    cursor: move;
+    display: none;
+}
+.bigmask {
+    /* background-color: pink; */
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 410px;
+    top: 0;
+    z-index: 9999;
+
+    display: none;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.bigmask img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left_xuanze {
+    /* background-color: yellow; */
+    height: 58px;
+
+    margin-top: 66px;
+}
+.left_xuanze img {
+    margin: 0 10px;
+}
+.left_bottom_corner span {
+    margin: 0 16px;
+}
+.left_bottom_corner span:nth-child(2)::before {
+    content: "\e968";
+    font-family: "icomoon";
+}
+.left_bottom_corner span:nth-child(3)::before {
+    content: "\e9da";
+    font-family: "icomoon";
+}
+.right {
+    position: absolute;
+    /* height: 570px; */
+    /* background-color: green; */
+    top: 250px;
+    right: 190px;
+    width: 718px;
+}
+.right .dingbu {
+    font-size: 16px;
+    color: black;
+}
+.right .dingbu_2 {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    color: red;
+}
+.right .right_one {
+    width: 718px;
+    height: 113px;
+    background-image: url("../upload/tableone背景.png");
+}
+.right .price_fontone {
+    font-size: 24px;
+    color: red;
+}
+.right .price_fonttwo {
+    color: red;
+}
+.right .cuxiao_font {
+    font-size: 12px;
+    color: #999;
+}
+.right_one .leijipingjia {
+    float: right;
+}
+.right_one .spans {
+    color: #1474af;
+}
+.right_two td {
+    display: inline-block;
+    margin: 10px 10px 0px 0px;
+}
+.right_two span {
+    /* box-sizing: border-box; */
+    /* margin: -2px; */
+    display: inline-block;
+    background-color: #f7f7f7;
+    padding: 15px 20px;
+    border: 1px solid #f7f7f7;
+}
+.right_two span:hover {
+    border: 1px solid red;
+}
+.right_two .teshutd {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #9d9d9d;
+}
+.right_two .teshutd input {
+    width: 29px;
+    height: 48px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    border-right: 1px solid #9d9d9d;
+}
+.right_two .teshutd i {
+    width: 19px;
+    height: 24px;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    cursor: pointer;
+}
+.right_two .teshutd :nth-child(2) {
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.right_two .jiarutd .gwc {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #c81623;
+    border: 1px solid #c81623;
+}
+/* .right_two .gwc:hover{
+border: none;
+} */
+/* iPhone大图详情 */
+.iphone {
+    /* background-color: pink; */
+    margin-top: 29px;
+    height: 2400px;
+}
+.iphone .iphone_right {
+    /* background-color: blue; */
+    width: 211px;
+
+    border: 1px solid #dddddd;
+    float: left;
+}
+.iphone_right .top_fenlei {
+    height: 37px;
+    width: 211px;
+    line-height: 37px;
+}
+.iphone_right .top_fenlei .fenleione {
+    display: block;
+    float: left;
+    height: 37px;
+    width: 105.5px;
+    background-color: white;
+    color: #c81623;
+    font-size: 12px;
+    text-align: center;
+}
+.iphone_right .top_fenlei .fenleitwo {
+    display: block;
+    float: left;
+    height: 37px;
+    width: 105px;
+    background-color: #f1f1f1;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+.iphone_right .iphone_rul {
+    height: 183px;
+    width: 100%;
+}
+.iphone_right .iphone_rul ul {
+    float: left;
+}
+.iphone_right .iphone_rul ul li {
+    width: 96px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    border-bottom: 1px dashed #dddddd;
+}
+.iphone_right .iphone_rul .iphone_rul_one li {
+    margin-left: 13px;
+}
+.iphone_right .iphone_rul .iphone_rul_two li {
+    width: 87px;
+    margin-right: 13px;
+}
+.iphone_right > span {
+    display: block;
+    height: 34px;
+    width: 211px;
+    line-height: 34px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}
+.iphone_right_ul ul li {
+    width: 190px;
+    height: 218px;
+    border-top: 1px solid #dddddd;
+    margin: 0 12px;
+    padding: 12px 0;
+}
+.iphone_right_ul ul li > img {
+    width: 100%;
+}
+.iphone_right_ul ul li > span {
+    display: inline-block;
+    width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 0 0 0;
+}
+.iphone_right_ul ul li > i {
+    font-weight: bolder;
+}
+.iphone_right_ul ul li > button {
+    width: 90px;
+    height: 28px;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    margin-left: 48px;
+}
+/* 左边盒子 */
+.iphone_left {
+    /* background-color: yellow; */
+    float: right;
+    width: 980px;
+    border: 1px solid #dddddd;
+}
+.iphone_left .left_one {
+    /* background-color: green; */
+    width: 980px;
+    height: 304px;
+}
+.iphone_left .left_one .one_top {
+    height: 40px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #dddddd;
+}
+.iphone_left .left_one .one_top > span {
+    display: block;
+    height: 100%;
+    width: 87px;
+    background-color: #c81623;
+    color: white;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+}
+.iphone_left .left_one .one_center {
+    height: 40px;
+    width: 100%;
+}
+.iphone_left .left_one .one_center > span {
+    display: block;
+    float: left;
+    margin: 14px 18px;
+    font-size: 12px;
+}
+.iphone_left .left_one .one_bottom > ul > li {
+    width: 117;
+    height: 108px;
+    float: left;
+    margin: 12px 18px 10px 30px;
+}
+.iphone_left .left_one .one_bottom > ul > li .nth_1 {
+    margin: 0;
+    display: block;
+    font-size: 12px;
+    float: left;
+}
+.iphone_left .left_one .one_bottom > ul > li .nth_2 {
+    display: block;
+    font-size: 12px;
+    font-weight: bolder;
+    float: left;
+}
+.iphone_left .left_one .one_bottom > ul > li .nth_3 {
+    display: block;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #c81623;
+    float: left;
+}
+.iphone_left .left_one .one_bottom > ul > li > span {
+    color: #c81623;
+    font-size: 14px;
+}
+.iphone_left .left_one .one_bottom .gwc {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    color: white;
+    background-color: #c81623;
+    border: 1px solid #c81623;
+}
+/* two */
+.iphone_left .left_two .top_center {
+    height: 370px;
+    width: 979px;
+}
+.iphone_left .left_two .two_top {
+    height: 40px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #dddddd;
+}
+.iphone_left .left_two .two_top > span {
+    display: block;
+    height: 100%;
+    width: 87px;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+.span_red {
+    background-color: #c81623;
+    color: white;
+}
+.iphone_left .left_two .two_center {
+    position: relative;
+    display: none;
+}
+.iphone_left .left_two .two_center span {
+    /* display: block; */
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 12px;
+}
+.iphone_left .left_two .two_center span::after {
+    content: "\ea50";
+    font-family: "icomoon";
+}
+.iphone_left .left_two .two_bottomone {
+    width: 979px;
+    height: 777px;
+    position: relative;
+    background-color: #fbfbfb;
+}
+.iphone_left .left_two .two_bottomone img {
+    position: absolute;
+    left: 121.5px;
+}
+.iphone_left .left_two .two_bottomtwo {
+    width: 979px;
+    height: 424px;
+    position: relative;
+    background-color: #f0f0f0;
+}
+.iphone_left .left_two .two_bottomtwo img {
+    position: absolute;
+    left: 309.5px;
+}
+.iphone_left .left_two .two_bottomthree {
+    width: 979px;
+    height: 490px;
+    position: relative;
+    background-color: #ffffff;
+}
+.iphone_left .left_two .two_bottomtwo img {
+    position: absolute;
+    left: 115.5px;
+    top: 10.5px;
+}
+/* 猜你喜欢部分 */
+.like {
+    height: 337px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* background-color: pink; */
+}
+.like .like_top {
+    width: 100%;
+    height: 42px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    color: black;
+    /* text-align: center; */
+    line-height: 42px;
+    padding-left: 12px;
+}
+.like .like_bottom ul {
+    padding: 30px 70px;
+}
+.like .like_bottom ul li {
+    float: left;
+    margin: 0 17px;
+}
+.like .like_bottom ul li :nth-child(1) {
+    width: 130px;
+    height: 130px;
+    display: block;
+}
+.like .like_bottom ul li :nth-child(2) {
+    display: block;
+    width: 138px;
+    height: 40px;
+    text-align: left;
+    font-size: 12px;
+}
+.like .like_bottom ul li :nth-child(3) {
+    display: block;
+    width: 138px;
+    height: 40px;
+    text-align: left;
+    font-size: 14px;
+    color: #cc0000;
+}
+.like .like_bottom ul li :nth-child(4) {
+    display: block;
+    width: 138px;
+    height: 40px;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 15px;
+}

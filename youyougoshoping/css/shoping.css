@@ -1,0 +1,265 @@
+.search {
+    position: absolute;
+    height: 36px;
+    width: 538px;
+    border: 2px solid #b1191a;
+    top: 35px;
+    left: 700px;
+}
+.search input[type="search"] {
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+    float: left;
+}
+.search button {
+    width: 80px;
+    height: 32px;
+    float: left;
+    color: white;
+    font-size: 16px;
+    background-color: #b1191a;
+}
+.logo_gwc {
+    position: absolute;
+    left: 195px;
+    top: 30px;
+    color: #333333;
+    font-size: 18px;
+}
+/* 购物车内容 */
+.shoping {
+    height: 1000px;
+
+    position: relative;
+}
+.shangping_span {
+    position: relative;
+    font-size: 16px;
+    color: #c81623;
+}
+.shangping_shuliang {
+    position: absolute;
+    top: 0;
+    left: 68px;
+}
+
+.gwc {
+    width: 100%;
+}
+.gwc_toubu {
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 36px;
+    border: 1px solid #dddddd;
+    margin-top: 24px;
+    line-height: 36px;
+}
+.gwc_toubu span {
+    font-size: 12px;
+    color: #666666;
+}
+.gwc_toubu :nth-child(2) {
+    padding: 0 10px;
+}
+.gwc_toubu :nth-child(3) {
+    padding: 0 250px;
+}
+.gwc_toubu :nth-child(4) {
+    padding: 0 10px;
+}
+.gwc_toubu :nth-child(5) {
+    padding: 0 100px;
+}
+.gwc_toubu :nth-child(6) {
+    padding: 0 50px;
+}
+.gwc_toubu :nth-child(7) {
+    padding: 0 50px;
+}
+.gwc_two {
+    width: 100%;
+    height: 36px;
+    border-bottom: 2px solid #dddddd;
+    margin-top: 7px;
+    line-height: 36px;
+}
+.gwc_two span {
+    font-size: 12px;
+    display: inline-block;
+}
+.yqwziying {
+    /* width: 56px; */
+    height: 20px;
+    background-color: #c81623;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 5px;
+}
+.gwc_two_yunfei {
+    float: right;
+}
+.yunfei {
+    color: #666666;
+    float: left;
+}
+.yunfeijiage {
+    color: #666666;
+    float: left;
+}
+.haicha {
+    color: #c81623;
+    float: left;
+}
+.mianjiage {
+    color: #c81623;
+    float: left;
+}
+.mianyunfei {
+    color: #c81623;
+    float: left;
+}
+.gwc_three {
+    position: relative;
+    height: 108px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+}
+.gwc_three > input {
+    margin-top: 15px;
+}
+.gwc_img {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 10px;
+    left: 35px;
+}
+.xiangqing {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 10px;
+    left: 140px;
+}
+.xiangqing span {
+    display: inline-block;
+    color: black;
+    font-size: 12px;
+    margin: 4px 0;
+}
+.xiangqing > :nth-child(2) {
+    margin-left: 40px;
+}
+.xiangqing > :nth-child(6) {
+    color: #666666;
+}
+.price {
+    position: absolute;
+    top: 10px;
+    left: 603px;
+    font-size: 14px;
+    color: #333333;
+}
+.gwc_number {
+    position: absolute;
+    top: 10px;
+    left: 735px;
+    font-size: 16px;
+    color: #333333;
+    border: 1px solid #333333;
+}
+.gwc_number .reduce {
+    width: 29px;
+    height: 29px;
+    border-right: 1px solid #333333;
+    font-size: 18px;
+}
+.gwc_number .plus {
+    width: 29px;
+    height: 29px;
+    border-left: 1px solid #333333;
+    color: #c81623;
+    font-size: 18px;
+}
+.gwc_number .number {
+    display: inline-block;
+    width: 40px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+}
+.huo {
+    position: absolute;
+    top: 45px;
+    left: 780px;
+    display: block;
+    color: #999999;
+    font-size: 12px;
+}
+.gwc_last {
+    position: absolute;
+    top: 10px;
+    left: 1105px;
+}
+.gwc_last > span {
+    display: block;
+    color: #666666;
+    font-size: 12px;
+}
+/* 带有换购的购物车 */
+.gwc_four {
+    position: relative;
+    height: 108px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+}
+.gwc_four > input {
+    margin-top: 15px;
+}
+/* 结算 */
+.gwc_weibu {
+    position: relative;
+}
+.gwc_weibu .weibu_one {
+    height: 50px;
+    border: 1px solid #dddddd;
+    line-height: 50px;
+    color: #666666;
+    font-size: 12px;
+}
+.gwc_weibu .weibu_one span,
+a {
+    margin: 0 10px;
+}
+.gwc_weibu .jiesuanhezi {
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+.gwc_weibu .jiesuanhezi span {
+    display: inline-block;
+}
+
+.gwc_weibu .jiesuanhezi :nth-child(3) {
+    font-size: 16px;
+    color: #e60012;
+    margin-right: 30px;
+}
+.gwc_weibu .jiesuanhezi :nth-child(6) {
+    margin-left: 150px;
+}
+.settlement {
+    width: 109px;
+    height: 49px;
+    text-align: center;
+    line-height: 49px;
+    float: right;
+    color: white;
+    background-color: #e60012;
+    font-size: 16px;
+    cursor: pointer;
+}

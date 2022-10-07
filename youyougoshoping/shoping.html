@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>我的购物车</title>
+        <!-- 网站说明 -->
+        <meta
+            name="description"
+            content="悠悠购-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。"
+        />
+        <!-- 关键字 -->
+        <meta name="Keywords" content="网上购物,网上商城,家电,手机,电脑,服装,居家,母婴,美妆,个护,食品,生鲜,悠悠购" />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/shoping.css" />
+        <script src="js/jquery.js"></script>
+        <!-- 引入favicon -->
+        <link rel="shortcut icon" href="悠悠购.ico" />
+    </head>
+    <body>
+        <!-- 快捷导航模块 start-->
+        <section class="shortcut">
+            <div class="w">
+                <div class="fl">
+                    <ul>
+                        <li>悠悠购欢迎您!&nbsp;&nbsp;</li>
+                        <li><a href="#">请登录&nbsp;&nbsp;</a><a href="register.html" class="style_red">免费注册</a></li>
+                    </ul>
+                </div>
+                <div class="fr">
+                    <ul>
+                        <li>我的订单</li>
+                        <li></li>
+                        <li class="arrow-icon">我的悠悠购</li>
+                        <li></li>
+                        <li>悠悠购会员</li>
+                        <li></li>
+                        <li>企业采购</li>
+                        <li></li>
+                        <li class="arrow-icon">关注悠悠购</li>
+                        <li></li>
+                        <li class="arrow-icon">客户服务</li>
+                        <li></li>
+                        <li class="arrow-icon">网站导航</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- 快捷导航模块 end-->
+        <!-- 头部区域 start-->
+        <header class="header w">
+            <div class="logo">
+                <h1>
+                    <a href="index.html" title="悠悠购商城">悠悠购商城</a>
+                </h1>
+            </div>
+            <span class="logo_gwc">购物车</span>
+            <div class="search">
+                <input type="search" placeholder="自营" />
+                <button>搜索</button>
+            </div>
+        </header>
+        <!-- 头部区域 end-->
+        <!-- 购物车区域 start -->
+        <div class="shoping w">
+            <span class="shangping_span">
+                全部商品
+                <span class="shangping_shuliang">11</span>
+            </span>
+            <div class="gwc">
+                <div class="gwc_toubu">
+                    <input type="checkbox" />
+                    <span>全选</span>
+                    <span>商品</span>
+                    <span>单价（元）</span>
+                    <span>数量</span>
+                    <span>小计（元）</span>
+                    <span>操作</span>
+                </div>
+                <div class="gwc_two">
+                    <input type="checkbox" />
+                    <span class="yqwziying">YQW自营</span>
+                    <div class="gwc_two_yunfei">
+                        <span class="yunfei">运费:</span>
+                        <span class="yunfeijiage">￥66.00</span>
+                        <span class="haicha">&nbsp;&nbsp;还差</span>
+                        <span class="mianjiage">￥99.99</span>
+                        <span class="mianyunfei">免运费</span>
+                    </div>
+                </div>
+                <div class="gwc_three">
+                    <input type="checkbox" />
+                    <div class="gwc_img">
+                        <img src="upload/购物车图1.png" alt="" />
+                    </div>
+                    <div class="xiangqing">
+                        <span>苹果（Apple）MD463FE/A MAC</span>
+                        <span>尺码：Thunderbolt至千兆</span>
+                        <br />
+                        <span>Thunderbolt雷电接口 至千兆以太网转</span>
+                        <br />
+                        <span><img src="upload/购物车小礼盒.png" alt="" />&nbsp;&nbsp;<a href="#">购买礼品包装</a></span>
+                    </div>
+                    <div class="price">248.00</div>
+                    <div class="gwc_number">
+                        <button class="reduce">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <span class="huo">有货</span>
+                    <div class="gwc_last">
+                        <span class="last_delete"><a href="javascript:;">删除</a></span>
+                        <span class="last_love"><a href="javascript:;">移到我的关注</a></span>
+                    </div>
+                </div>
+                <div class="gwc_three">
+                    <input type="checkbox" />
+                    <div class="gwc_img">
+                        <img src="upload/购物车图2.png" alt="" />
+                    </div>
+                    <div class="xiangqing">
+                        <span>苹果（Apple）MD463FE/A MAC</span>
+                        <span>尺码：Thunderbolt至千兆</span>
+                        <br />
+                        <span>Thunderbolt雷电接口 至千兆以太网转</span>
+                        <br />
+                        <span><img src="upload/购物车小礼盒.png" alt="" />&nbsp;&nbsp;<a href="#">购买礼品包装</a></span>
+                    </div>
+                    <div class="price">248.00</div>
+                    <div class="gwc_number">
+                        <button class="reduce">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <span class="huo">有货</span>
+                    <div class="gwc_last">
+                        <span class="last_delete"><a href="javascript:;">删除</a></span>
+                        <span class="last_love"><a href="javascript:;">移到我的关注</a></span>
+                    </div>
+                </div>
+                <div class="gwc_three">
+                    <input type="checkbox" />
+                    <div class="gwc_img">
+                        <img src="upload/购物车图3.png" alt="" />
+                    </div>
+                    <div class="xiangqing">
+                        <span>苹果（Apple）MD463FE/A MAC</span>
+                        <span>尺码：Thunderbolt至千兆</span>
+                        <br />
+                        <span>Thunderbolt雷电接口 至千兆以太网转</span>
+                        <br />
+                        <span><img src="upload/购物车小礼盒.png" alt="" />&nbsp;&nbsp;<a href="#">购买礼品包装</a></span>
+                    </div>
+                    <div class="price">248.00</div>
+                    <div class="gwc_number">
+                        <button class="reduce">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <span class="huo">有货</span>
+                    <div class="gwc_last">
+                        <span class="last_delete"><a href="javascript:;">删除</a></span>
+                        <span class="last_love"><a href="javascript:;">移到我的关注</a></span>
+                    </div>
+                </div>
+                <div class="gwc_three">
+                    <input type="checkbox" />
+                    <div class="gwc_img">
+                        <img src="upload/购物车图4.png" alt="" />
+                    </div>
+                    <div class="xiangqing">
+                        <span>苹果（Apple）MD463FE/A MAC</span>
+                        <span>尺码：Thunderbolt至千兆</span>
+                        <br />
+                        <span>Thunderbolt雷电接口 至千兆以太网转</span>
+                        <br />
+                        <span><img src="upload/购物车小礼盒.png" alt="" />&nbsp;&nbsp;<a href="#">购买礼品包装</a></span>
+                    </div>
+                    <div class="price">248.00</div>
+                    <div class="gwc_number">
+                        <button class="reduce">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <span class="huo">有货</span>
+                    <div class="gwc_last">
+                        <span class="last_delete"><a href="javascript:;">删除</a></span>
+                        <span class="last_love"><a href="javascript:;">移到我的关注</a></span>
+                    </div>
+                </div>
+                <div class="gwc_three">
+                    <input type="checkbox" />
+                    <div class="gwc_img">
+                        <img src="upload/购物车图5.png" alt="" />
+                    </div>
+                    <div class="xiangqing">
+                        <span>苹果（Apple）MD463FE/A MAC</span>
+                        <span>尺码：Thunderbolt至千兆</span>
+                        <br />
+                        <span>Thunderbolt雷电接口 至千兆以太网转</span>
+                        <br />
+                        <span><img src="upload/购物车小礼盒.png" alt="" />&nbsp;&nbsp;<a href="#">购买礼品包装</a></span>
+                    </div>
+                    <div class="price">248.00</div>
+                    <div class="gwc_number">
+                        <button class="reduce">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <span class="huo">有货</span>
+                    <div class="gwc_last">
+                        <span class="last_delete"><a href="javascript:;">删除</a></span>
+                        <span class="last_love"><a href="javascript:;">移到我的关注</a></span>
+                    </div>
+                </div>
+                <div class="gwc_two">
+                    <input type="checkbox" />
+                    <span class="yqwziying">YQW自营超级无敌碉堡店店</span>
+                </div>
+                <div class="gwc_four">
+                    <input type="checkbox" />
+                    <div class="gwc_img">
+                        <img src="upload/购物车图2.png" alt="" />
+                    </div>
+                    <div class="xiangqing">
+                        <span>苹果（Apple）MD463FE/A MAC</span>
+                        <span>尺码：Thunderbolt至千兆</span>
+                        <br />
+                        <span>Thunderbolt雷电接口 至千兆以太网转</span>
+                        <br />
+                        <span><img src="upload/购物车小礼盒.png" alt="" />&nbsp;&nbsp;<a href="#">购买礼品包装</a></span>
+                    </div>
+                    <div class="price">248.00</div>
+                    <div class="gwc_number">
+                        <button class="reduce">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <span class="huo">有货</span>
+                    <div class="gwc_last">
+                        <span class="last_delete"><a href="javascript:;">删除</a></span>
+                        <span class="last_love"><a href="javascript:;">移到我的关注</a></span>
+                    </div>
+                </div>
+                <!-- 购物车结算 -->
+                <div class="gwc_weibu w">
+                    <div class="weibu_one">
+                        <input type="checkbox" />
+                        <span>全选</span>
+                        <a href="javascript:;">删除选中的商品</a>
+                        <a href="javascript:;">移到我的关注</a>
+                        <a href="javascript:;">清除下柜商品</a>
+                    </div>
+                    <!-- 结算界面后半部分 -->
+                    <div class="jiesuanhezi">
+                        <span>已选择0件商品</span>
+                        <span>总价（不含运费）：</span>
+                        <span>￥99999.00</span>
+                        <!-- 结算按钮 -->
+                        <div class="settlement">结算</div>
+                        <br />
+                        <span>已节省：-￥20.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 购物车区域 end -->
+        <!-- 底部模块 start-->
+        <footer class="footer">
+            <div class="w">
+                <div class="mod_service">
+                    <ul>
+                        <li>
+                            <h5></h5>
+                            <div>
+                                <h4>正品保障</h4>
+                                <p>正品保证，提供发票</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h5></h5>
+                            <div>
+                                <h4>正品保障</h4>
+                                <p>正品保证，提供发票</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h5></h5>
+                            <div>
+                                <h4>正品保障</h4>
+                                <p>正品保证，提供发票</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h5></h5>
+                            <div>
+                                <h4>正品保障</h4>
+                                <p>正品保证，提供发票</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mod_help">
+                    <dl>
+                        <dt>服务指南</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">会员介绍</a></dd>
+                        <dd><a href="#">生活旅行</a></dd>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">大家电</a></dd>
+                        <dd><a href="#">联系客服</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务指南</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">会员介绍</a></dd>
+                        <dd><a href="#">生活旅行</a></dd>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">大家电</a></dd>
+                        <dd><a href="#">联系客服</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务指南</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">会员介绍</a></dd>
+                        <dd><a href="#">生活旅行</a></dd>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">大家电</a></dd>
+                        <dd><a href="#">联系客服</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务指南</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">会员介绍</a></dd>
+                        <dd><a href="#">生活旅行</a></dd>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">大家电</a></dd>
+                        <dd><a href="#">联系客服</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务指南</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">会员介绍</a></dd>
+                        <dd><a href="#">生活旅行</a></dd>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">大家电</a></dd>
+                        <dd><a href="#">联系客服</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd>
+                            <a href="#"><img src="images/app二维码.png" alt="" /></a>
+                        </dd>
+                        <dd>悠悠购客户端</dd>
+                    </dl>
+                </div>
+                <div class="mod_copyright">
+                    <div class="links">
+                        <a href="#">关于我们 |</a>
+                        <a href="#">联系我们 |</a>
+                        <a href="#">联系客服 |</a>
+                        <a href="#">商家入驻 |</a>
+                        <a href="#">营销中心 |</a>
+                        <a href="#">手机悠悠购 |</a>
+                        <a href="#">友情链接 |</a>
+                        <a href="#">销售联盟 |</a>
+                        <a href="#">悠悠购社区 |</a>
+                        <a href="#">悠悠购公益 |</a>
+                        <a href="#">English Site |</a>
+                        <a href="#">Contact U</a>
+                    </div>
+                    <div class="copyright">
+                        地址：成都市郫都区巴拉巴拉巴拉办公楼一层 邮编：5201314 电话：400-618-4000 传真：520-13141314 邮箱: 235937@qq.com
+                        <br />
+                        成ICP备000000000号成公网安备0000000000
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- 底部模块 end-->
+    </body>
+</html>

@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?m9olfl');
+  src:  url('fonts/icomoon.eot?m9olfl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?m9olfl') format('truetype'),
+    url('fonts/icomoon.woff?m9olfl') format('woff'),
+    url('fonts/icomoon.svg?m9olfl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-about-dot-me:before {
+  content: "\e900";
+  color: #00a98f;
+}
+.icon-abstract:before {
+  content: "\e901";
+}
+.icon-apachespark:before {
+  content: "\e902";
+  color: #e25a1c;
+}
+.icon-apple:before {
+  content: "\e903";
+  color: #999;
+}
+.icon-applepodcasts:before {
+  content: "\e904";
+  color: #93c;
+}
+.icon-bing:before {
+  content: "\e905";
+  color: #008373;
+}
+.icon-buzzfeed:before {
+  content: "\e906";
+  color: #e32;
+}
+.icon-coderwall:before {
+  content: "\e907";
+  color: #3e8dcc;
+}
+.icon-codeship:before {
+  content: "\e908";
+  color: #3c4858;
+}
+.icon-eclipseide:before {
+  content: "\e909";
+  color: #2c2255;
+}
+.icon-highly:before {
+  content: "\e90a";
+  color: #ff3c00;
+}
+.icon-mailchimp:before {
+  content: "\e90b";
+  color: #ffe01b;
+}
+.icon-microsoft:before {
+  content: "\e90c";
+  color: #666;
+}
+.icon-xiaomi:before {
+  content: "\e90d";
+  color: #fa6709;
+}
+.icon-zhihu:before {
+  content: "\e90e";
+  color: #0084ff;
+}
+.icon-abbrobotstudio:before {
+  content: "\e910";
+  color: #ff9e0f;
+}
+.icon-apple1:before {
+  content: "\e90f";
+  color: #999;
+}
+.icon-applemusic:before {
+  content: "\e911";
+}
+.icon-applepay:before {
+  content: "\e912";
+}
+.icon-audi:before {
+  content: "\e913";
+  color: #bb0a30;
+}
+.icon-mercedes:before {
+  content: "\e914";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}
+.icon-ctrl1:before {
+  content: "\ea51";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-redo2:before {
+  content: "\e968";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
